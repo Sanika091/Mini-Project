@@ -3,7 +3,8 @@ class Converter
 {
 	public static void main(String[] args) 
 	{
-		Scanner scanner = new Scanner(System.in);
+		@SuppressWarnings("resource")
+        Scanner scanner = new Scanner(System.in);
 		System.out.println("* Currency Convertor *");
             System.out.println("KNOW YOUR CURRENCY RATE");
             System.out.println();
